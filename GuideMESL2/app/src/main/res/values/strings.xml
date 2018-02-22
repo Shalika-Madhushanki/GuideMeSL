@@ -6,4 +6,8 @@
 
     <string name="action_settings">Settings</string>
     <string name="title_activity_find_route">Map</string>
+    <string name="btn_send_acc">Accommodation</string>
+    <string name="title_activity_find_accom">Map</string>
+    <string name="title_activity_find_nearby">Map</string>
+    Accommodation
 </resources>

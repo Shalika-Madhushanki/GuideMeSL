@@ -92,13 +92,17 @@ public class MainActivity extends AppCompatActivity
                 startActivity(intent);
                 break;
             case R.id.nav_accommodation:
-                //intent = new Intent(this, Class2.class);
-                //startActivity(intent);
-                //break;
+                intent = new Intent(this, findAccomActivity.class);
+                startActivity(intent);
+                break;
             case R.id.nav_nearby:
-                //intent = new Intent(this, Class3.class);
-                //startActivity(intent);
-                //break;
+                intent = new Intent(this, findNearbyActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.nav_ShareInfor:
+                intent = new Intent(this, shareInfoActivity.class);
+                startActivity(intent);
+                break;
             default:
                 break;
         }
